@@ -1,0 +1,118 @@
+# ======================================
+# Maven
+# ======================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ======================================
+# IDE - IntelliJ IDEA
+# ======================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# ======================================
+# IDE - Eclipse
+# ======================================
+.metadata
+.classpath
+.project
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+# ======================================
+# IDE - VS Code
+# ======================================
+.vscode/
+*.code-workspace
+.history/
+
+# ======================================
+# Operating System
+# ======================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ======================================
+# Test Results & Reports
+# ======================================
+test-output/
+allure-results/
+allure-report/
+screenshots/
+reports/
+logs/
+*.log
+
+# ======================================
+# WebDrivers
+# ======================================
+drivers/
+*.exe
+chromedriver
+geckodriver
+msedgedriver
+
+# ======================================
+# Compiled Files
+# ======================================
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ======================================
+# Virtual Machine
+# ======================================
+*.log
+hs_err_pid*
+replay_pid*
+
+# ======================================
+# Credentials & Sensitive Data
+# ======================================
+**/secrets/
+**/*.key
+**/*.pem
+**/*.env
+
+# ======================================
+# Node (if using any JS tools)
+# ======================================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ======================================
+# Generated Files
+# ======================================
+generated/
+test-assets/generated-scripts/

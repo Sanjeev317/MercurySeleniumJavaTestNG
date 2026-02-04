@@ -1,0 +1,32 @@
+Id,Requirement,Title,State,Section,Automation,Precondition,Steps(Step),Steps(Expected Result)
+C######,TBD,"Verify New Claim Creation with Policy Search",,Claim Management,Yes,,"1. Navigate to ClaimCenter application.
+2. Click on the Claim Tab expand button.
+3. Click on the 'New Claim' menu item.
+4. Select 'AUTO' from the Policy Type dropdown.
+5. Select 'ALA' from the Type dropdown.
+6. Click on the Policy # input field.
+7. Enter 'A48562611' in the Policy # field.
+8. Click on the First Name input field.
+9. Enter 'Fr Test' in the First Name field.
+10. Click on the Last Name input field.
+11. Enter 'La Test' in the Last Name field.
+12. Click on the date input field.
+13. Enter '07/31/2000' in the date field.
+14. Click on the time input field.
+15. Enter '10:30' in the time field.
+16. Click the 'Search' button.","1. ClaimCenter application is displayed.
+2. Claim Tab menu is expanded.
+3. New Claim page is displayed.
+4. 'AUTO' is selected and dropdown closes.
+5. 'ALA' is selected and dropdown closes.
+6. Policy # field is active and ready for input.
+7. Policy # 'A48562611' is entered successfully.
+8. First Name field is active and ready for input.
+9. First Name 'Fr Test' is entered successfully.
+10. Last Name field is active and ready for input.
+11. Last Name 'La Test' is entered successfully.
+12. Date field is active and ready for input.
+13. Date '07/31/2000' is entered and accepted.
+14. Time field is active and ready for input.
+15. Time '10:30' is entered and formatted.
+16. Policy search is executed and results are displayed."

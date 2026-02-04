@@ -1,0 +1,22 @@
+import { test, expect } from '@playwright/test';
+
+test('test', async ({ page }) => {
+  await page.goto('https://cc-uat2-gwcpdev.acsc.beta3-andromeda.guidewire.net/ClaimCenter.do');
+  await page.locator('#TabBar-ClaimTab > .gw-action--expand-button > .gw-icon').click();
+  await page.getByRole('menuitem', { name: 'New Claim' }).click();
+  await page.getByLabel('Policy Type').selectOption('AUTO');
+  await page.getByLabel('Type', { exact: true }).selectOption('ALA');
+  await page.getByRole('textbox', { name: 'Policy #' }).click();
+  await page.getByRole('textbox', { name: 'Policy #' }).click();
+  await page.getByRole('textbox', { name: 'Policy #' }).fill('A48562611');
+  await page.getByRole('textbox', { name: 'First Name' }).click();
+  await page.getByRole('textbox', { name: 'First Name' }).fill('Fr Test');
+  await page.getByRole('textbox', { name: 'Last Name' }).click();
+  await page.getByRole('textbox', { name: 'Last Name' }).fill('La Test');
+  await page.getByRole('textbox', { name: 'date input' }).click();
+  await page.getByRole('textbox', { name: 'date input' }).fill('07/31/2000y');
+  await page.getByRole('textbox', { name: 'hh:mm' }).click();
+  await page.getByRole('textbox', { name: 'hh:mm' }).fill('10:30m');
+  await page.getByRole('button', { name: 'aa' }).click();
+  await page.getByRole('button', { name: 'Search' }).click();
+});

@@ -1,0 +1,24 @@
+{
+  "validPolicySearch": {
+    "policyType": "Auto",
+    "type": "Alabama Personal Auto",
+    "policyNumber": "A48562611",
+    "firstName": "Fr Test",
+    "lastName": "La Test",
+    "date": "07/31/2000",
+    "time": "1030",
+    "expectedResult": "Policy search is executed and results are displayed",
+    "description": "Happy path with valid policy search data"
+  },
+  "invalidPolicySearch": {
+    "policyType": "Auto",
+    "type": "Alabama Personal Auto",
+    "policyNumber": "INVALID123",
+    "firstName": "Invalid",
+    "lastName": "User",
+    "date": "01/01/2000",
+    "time": "0900",
+    "expectedError": "No policy found",
+    "description": "Negative test with invalid policy number"
+  }
+}

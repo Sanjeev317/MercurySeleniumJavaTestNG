@@ -1,0 +1,10 @@
+{
+  "username": "testuser@mercury.com",
+  "password": "Test@1234",
+  "rememberMe": true,
+  "deviceInfo": {
+    "deviceType": "web",
+    "browser": "chrome",
+    "os": "windows"
+  }
+}

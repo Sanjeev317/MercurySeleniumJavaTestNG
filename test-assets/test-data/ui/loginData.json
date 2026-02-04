@@ -1,0 +1,32 @@
+{
+  "validUser": {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expectedPageTitle": "Swag Labs",
+    "description": "Valid SauceDemo credentials for successful login"
+  },
+  "invalidUser": {
+    "username": "invalid_user",
+    "password": "wrong_password",
+    "expectedError": "Epic sadface: Username and password do not match any user in this service",
+    "description": "Invalid credentials for negative testing"
+  },
+  "emptyUser": {
+    "username": "",
+    "password": "",
+    "expectedError": "Epic sadface: Username is required",
+    "description": "Empty credentials for validation testing"
+  },
+  "lockedUser": {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "expectedError": "Epic sadface: Sorry, this user has been locked out",
+    "description": "Locked user account for testing"
+  },
+  "specialCharUser": {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expectedPageTitle": "Swag Labs",
+    "description": "Valid SauceDemo user"
+  }
+}
