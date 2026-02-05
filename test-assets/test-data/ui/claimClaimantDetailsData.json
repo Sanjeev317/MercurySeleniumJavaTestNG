@@ -1,0 +1,20 @@
+{
+  "validClaimWithClaimantDetails": {
+    "policyNumber": "CHO075170006",
+    "lossDate": "02/01/2026",
+    "lossTime": "11:11",
+    "claimantName": "HOUSE 999553",
+    "relationToInsured": "self",
+    "agreeToEmailCommunication": "No",
+    "preferredMethodOfContact": "none",
+    "requested": "No",
+    "expectedResults": {
+      "claimTabExpanded": true,
+      "newClaimPageDisplayed": true,
+      "policySearchExecuted": true,
+      "claimantDetailsPageDisplayed": true,
+      "nextStepDisplayed": true
+    },
+    "description": "Valid claim creation with policy search and claimant details configuration"
+  }
+}

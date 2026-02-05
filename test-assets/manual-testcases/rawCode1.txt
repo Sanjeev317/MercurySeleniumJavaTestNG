@@ -1,0 +1,24 @@
+import { test, expect } from '@playwright/test';
+
+test('test', async ({ page }) => {
+  await page.goto('https://cc-uat2-gwcpdev.acsc.beta3-andromeda.guidewire.net/ClaimCenter.do');
+  await page.locator('#TabBar-ClaimTab > .gw-action--expand-button > .gw-icon').click();
+  await page.getByRole('menuitem', { name: 'New Claim' }).click();
+  await page.getByRole('textbox', { name: 'Policy #' }).click();
+  await page.getByRole('textbox', { name: 'Policy #' }).fill('CHO075170006');
+  await page.getByRole('textbox', { name: 'date input' }).click();
+  await page.getByRole('textbox', { name: 'date input' }).fill('02/01/2026y');
+  await page.getByRole('textbox', { name: 'hh:mm' }).click();
+  await page.getByRole('textbox', { name: 'hh:mm' }).click();
+  await page.getByRole('textbox', { name: 'hh:mm' }).fill('10:10m');
+  await page.getByRole('button', { name: 'aa' }).click();
+  await page.getByRole('button', { name: 'Search' }).click();
+  await page.getByText('NeNext').click();
+  await page.getByLabel('Name').selectOption('Person:1757311');
+  await page.getByLabel('Relation to Insured').selectOption('self');
+  await page.getByRole('radiogroup', { name: 'Agree To Email Communication' }).getByLabel('No').click();
+  await page.getByLabel('Preferred Method of Contact').selectOption('none');
+  await page.getByRole('radiogroup', { name: 'Requested' }).getByLabel('No').click();
+  await page.getByRole('button', { name: 'Next' }).click();
+  
+});

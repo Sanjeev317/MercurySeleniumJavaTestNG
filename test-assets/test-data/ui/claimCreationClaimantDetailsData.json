@@ -1,0 +1,17 @@
+{
+  "validClaimWithClaimantDetails": {
+    "description": "Valid claim creation with policy search and claimant name selection",
+    "policyNumber": "CHO075170006",
+    "lossDate": "02/01/2026",
+    "lossTime": "10:10",
+    "timeAmPm": "PM",
+    "claimantName": "HOUSE 999553"
+  },
+  "invalidPolicyNumber": {
+    "description": "Claim creation with invalid policy number",
+    "policyNumber": "INVALID999",
+    "lossDate": "02/01/2026",
+    "lossTime": "10:10",
+    "timeAmPm": "PM"
+  }
+}

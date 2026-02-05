@@ -1,0 +1,27 @@
+Id,Requirement,Title,State,Section,Automation,Precondition,Steps(Step),Steps(Expected Result)
+C######,TBD,"Verify Claim Creation with Policy Search and Claimant Details",,Claim Management,Yes,,"1. Navigate to ClaimCenter application.
+2. Click on the Claim Tab expand button.
+3. Click on the 'New Claim' menu item.
+4. Enter 'CHO075170006' in the Policy # field.
+5. Enter '02/01/2026' in the date field.
+6. Enter '10:10' in the time field.
+7. Click the Time of Loss AM/PM button to toggle.
+8. Click the 'Search' button.
+9. Click the 'Next' button.
+10. Select 'Person:1757311' from the Name dropdown.
+11. Select 'self' from the Relation to Insured dropdown.
+12. Select 'No' radio button for Agree To Email Communication.
+13. Select 'none' from the Preferred Method of Contact dropdown.
+14. Select 'No' radio button for Requested.
+15. Click the 'Next' button.","1. ClaimCenter application is displayed.
+2. Claim Tab menu is expanded.
+3. New Claim page is displayed.
+4. Policy # 'CHO075170006' is entered successfully.
+5. Date '02/01/2026' is entered and accepted.
+6. Time '10:10' is entered and formatted.
+7. Time format is toggled between AM and PM.
+8. Policy search is executed and results are displayed.
+9. Claimant details page is displayed.
+10. 'Person:1757311' is selected from Name dropdown.
+
+

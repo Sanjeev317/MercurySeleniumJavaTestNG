@@ -1,0 +1,41 @@
+{
+  "validClaimWithPolicySearch": {
+    "description": "Valid claim creation with policy search and claimant details",
+    "policyNumber": "CHO075170006",
+    "lossDate": "02/01/2026",
+    "lossTime": "10:10",
+    "timeAmPm": "PM",
+    "claimantName": "HOUSE 999553",
+    "relationToInsured": "Self",
+    "emailCommunication": "No",
+    "preferredMethodOfContact": "none",
+    "requested": "No",
+    "expectedResults": {
+      "claimCreated": true,
+      "policyFound": true,
+      "claimantSelected": true
+    }
+  },
+  "invalidPolicyNumber": {
+    "description": "Invalid policy number scenario",
+    "policyNumber": "INVALID123",
+    "lossDate": "02/01/2026",
+    "lossTime": "10:10",
+    "timeAmPm": "PM",
+    "expectedResults": {
+      "claimCreated": false,
+      "errorMessage": "Policy not found"
+    }
+  },
+  "missingRequiredFields": {
+    "description": "Test with missing required fields",
+    "policyNumber": "",
+    "lossDate": "",
+    "lossTime": "",
+    "timeAmPm": "AM",
+    "expectedResults": {
+      "claimCreated": false,
+      "validationError": true
+    }
+  }
+}
